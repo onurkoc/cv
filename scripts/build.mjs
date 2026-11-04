@@ -5,7 +5,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { readdir } from 'node:fs/promises';
 import { chromium } from 'playwright';
-import { renderPage, esc } from '../src/page.mjs';
+import { renderPage, render404, esc } from '../src/page.mjs';
 import { renderPrint } from '../src/print.mjs';
 
 const draft = process.argv.includes('--draft');
@@ -89,6 +89,8 @@ await writeFile(s('_headers'), `/*
 `);
 await writeFile(s('index.html'), renderPage(content.en, content.de.meta.pdf_file, A));
 await writeFile(s('de', 'index.html'), renderPage(content.de, content.en.meta.pdf_file, A));
+await writeFile(s('404.html'), render404(content.en, content.de, A));
+await writeFile(s('_redirects'), '/onur-koc-cv.pdf  /onur-koc-cv-en.pdf  301\n');
 await writeFile(s('robots.txt'), 'User-agent: *\nAllow: /\nSitemap: https://cv.onurkoc.net/sitemap.xml\n');
 await writeFile(s('sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">

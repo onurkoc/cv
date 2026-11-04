@@ -151,3 +151,6 @@ mark.offen{background:#fff2a8;color:var(--ink);padding:0 4px}
 /* Schwerpunkte: Strich + hängender Einzug, damit Umbrüche erkennbar bleiben */
 .skills li{position:relative;padding-left:16px}
 .skills li::before{content:"–";position:absolute;left:0;top:0;color:var(--red);font-weight:600}
+
+/* 404 */
+.hero.err{grid-template-columns:1fr}

@@ -157,7 +157,8 @@
     "linkedin": "LinkedIn",
     "photo_alt": "Portrait of Onur Koç",
     "updated": "Updated",
-    "f_project": "Project"
+    "f_project": "Project",
+    "not_found": "This page does not exist."
   },
   "stats": {
     "years": "18+",

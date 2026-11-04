@@ -19,7 +19,7 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { 'content-type': types[path.extname(u)] ?? 'application/octet-stream' });
     res.end(buf);
   } catch {
-    res.writeHead(404).end('not found');
+    res.writeHead(404, { 'content-type': 'text/html' }).end(await readFile(path.join(root, 'site', '404.html')));
   }
 }).listen(0);
 const base = `http://127.0.0.1:${server.address().port}`;
@@ -30,7 +30,7 @@ for (const [lang, url] of [['en', '/'], ['de', '/de/']]) {
   for (const [name, vp] of [['desktop', { width: 1440, height: 900 }], ['phone', { width: 390, height: 844 }]]) {
     const page = await browser.newPage({ viewport: vp, deviceScaleFactor: name === 'phone' ? 2 : 1 });
     page.on('requestfailed', (r) => problems.push(`${lang}/${name}: ${r.url()}`));
-    page.on('response', (r) => r.status() >= 400 && problems.push(`${lang}/${name}: ${r.status()} ${r.url()}`));
+    page.on('response', (r) => r.status() >= 400 && !r.url().includes('gibt-es-nicht') && problems.push(`${lang}/${name}: ${r.status()} ${r.url()}`));
     await page.goto(base + url, { waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
@@ -39,6 +39,11 @@ for (const [lang, url] of [['en', '/'], ['de', '/de/']]) {
     await page.close();
   }
 }
+// 404-Seite
+const nf = await browser.newPage({ viewport: { width: 1440, height: 700 } });
+const resp = await nf.goto(base + '/gibt-es-nicht');
+if (resp.status() !== 404) problems.push('404-Seite: Status ' + resp.status());
+await nf.screenshot({ path: path.join(out, '404-desktop.png') });
 // 360 px: nur Überlauf prüfen
 const small = await browser.newPage({ viewport: { width: 360, height: 800 } });
 for (const url of ['/', '/de/']) {

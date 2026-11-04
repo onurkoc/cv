@@ -230,3 +230,41 @@ ${pubs}
 </html>
 `;
 }
+
+// 404-Seite: ein Satz je Sprache, Links auf / und /de/
+export function render404(en, de, A) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>404 – ${esc(en.person.name)}</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="${A.css}">
+</head>
+<body>
+<div class="wrap">
+<header class="site-header">
+  <a class="brand" href="/"><span class="mark" aria-hidden="true"></span>${esc(en.person.name)}</a>
+</header>
+<main id="main">
+<section class="hero err">
+  <div class="hero-main">
+    <h1>404</h1>
+    <div class="hero-info">
+      <p class="hero-summary" lang="en">${esc(en.ui.not_found)}</p>
+      <p class="hero-summary" lang="de">${esc(de.ui.not_found)}</p>
+      <div class="hero-actions">
+        <a class="btn" href="/" hreflang="en" lang="en">English${ico('right')}</a>
+        <a class="btn" href="/de/" hreflang="de" lang="de">Deutsch${ico('right')}</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+</div>
+</body>
+</html>
+`;
+}
