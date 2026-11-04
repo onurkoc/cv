@@ -1,9 +1,9 @@
 /* Stil C «Raster»: Weiss, Schwarz, Rot, Inter Tight, strenges Raster */
-@font-face{font-family:"Inter Tight";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-500-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-600-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-700-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-weight:800;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-400-normal.6f32da94.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-500-normal.6c0019f8.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-600-normal.db1a039d.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-700-normal.9c4f02f3.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:800;font-style:normal;font-display:swap;src:url(fonts/inter-tight-latin-800-normal.b4b4a087.woff2) format("woff2")}
 
 :root{--ink:#111;--text:#333;--muted:#6b6b6b;--line:#d9d9d9;--red:#c8261a;--red-dark:#8f1a11;--gap:48px}
 *{box-sizing:border-box}

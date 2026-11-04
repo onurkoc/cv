@@ -20,7 +20,7 @@ export const liIcon = () => `<svg class="li" viewBox="0 0 24 24" aria-hidden="tr
 export function contactItems(ct, ui) {
   return [
     `<a href="mailto:${esc(ct.email)}">${esc(ct.email)}</a>`,
-    ...ct.phones.map((p) => `<a href="tel:${p.number.replace(/[^+d]/g, '')}">${esc(p.number)}</a> (${esc(p.label)})`),
+    ...ct.phones.map((p) => `<a href="tel:${p.number.replace(/[^+0-9]/g, '')}">${esc(p.number)}</a> (${esc(p.label)})`),
     `<a class="li-link" href="${esc(ct.linkedin)}" aria-label="${esc(ui.linkedin)}">${liIcon()}<span>${esc(ui.linkedin)}</span></a>`,
   ];
 }
@@ -59,7 +59,7 @@ export function statValue(v) {
   return `${esc(m[1])}${m[2] ? '<span class="red">+</span>' : ''}`;
 }
 
-export function renderPage(c, otherPdf) {
+export function renderPage(c, otherPdf, A) {
   const { ui, person: P, meta } = c;
   const lang = meta.lang;
   const otherLang = lang === 'en' ? 'de' : 'en';
@@ -118,10 +118,10 @@ export function renderPage(c, otherPdf) {
 <meta name="twitter:image" content="${SITE}/og.png">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" as="image" type="image/webp" href="/assets/img/onur-koc-360.webp" imagesrcset="/assets/img/onur-koc-360.webp 1x, /assets/img/onur-koc-720.webp 2x">
-<link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/inter-tight-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="preload" as="image" type="image/webp" href="${A.img['onur-koc-360.webp']}" imagesrcset="${A.img['onur-koc-360.webp']} 1x, ${A.img['onur-koc-720.webp']} 2x">
+<link rel="preload" href="${A.font400}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="${A.font800}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="${A.css}">
 </head>
 <body>
 <a class="skip" href="#main">${esc(ui.skip)}</a>
@@ -154,8 +154,8 @@ export function renderPage(c, otherPdf) {
     </div>
   </div>
   <picture class="hero-photo">
-    <source type="image/webp" srcset="/assets/img/onur-koc-360.webp 1x, /assets/img/onur-koc-720.webp 2x">
-    <img src="/assets/img/onur-koc-360.jpg" srcset="/assets/img/onur-koc-360.jpg 1x, /assets/img/onur-koc-720.jpg 2x" width="360" height="315" alt="${esc(ui.photo_alt)}" fetchpriority="high">
+    <source type="image/webp" srcset="${A.img['onur-koc-360.webp']} 1x, ${A.img['onur-koc-720.webp']} 2x">
+    <img src="${A.img['onur-koc-360.jpg']}" srcset="${A.img['onur-koc-360.jpg']} 1x, ${A.img['onur-koc-720.jpg']} 2x" width="360" height="315" alt="${esc(ui.photo_alt)}" fetchpriority="high">
   </picture>
 </section>
 

@@ -2,6 +2,8 @@
 import { readFile, writeFile, mkdir, rm, cp } from 'node:fs/promises';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
+import { readdir } from 'node:fs/promises';
 import { chromium } from 'playwright';
 import { renderPage, esc } from '../src/page.mjs';
 import { renderPrint } from '../src/print.mjs';
@@ -41,9 +43,35 @@ if (placeholders.length && !draft) {
 // site/ neu aufbauen
 await rm(s(), { recursive: true, force: true });
 await mkdir(s('assets', 'fonts'), { recursive: true });
+await mkdir(s('assets', 'img'), { recursive: true });
 await mkdir(s('de'), { recursive: true });
-await cp(p('src', 'fonts'), s('assets', 'fonts'), { recursive: true });
-await cp(p('src', 'site.css'), s('assets', 'site.css'));
+
+// Assets mit Inhalts-Hash im Dateinamen (Schriften, Bilder, dann CSS mit den gehashten Schriftnamen)
+const hashName = (name, buf) => {
+  const h = createHash('sha256').update(buf).digest('hex').slice(0, 8);
+  const i = name.lastIndexOf('.');
+  return `${name.slice(0, i)}.${h}${name.slice(i)}`;
+};
+const emit = async (srcFile, dir, name) => {
+  const buf = await readFile(srcFile);
+  const out = hashName(name, buf);
+  await writeFile(s('assets', dir, out), buf);
+  return out;
+};
+const A = { img: {} };
+const fontMap = {};
+for (const f of (await readdir(p('src', 'fonts'))).filter((f) => f.endsWith('.woff2')))
+  fontMap[f] = await emit(p('src', 'fonts', f), 'fonts', f);
+await cp(p('src', 'fonts', 'OFL.txt'), s('assets', 'fonts', 'OFL.txt'));
+for (const f of (await readdir(p('src', 'img'))).filter((f) => f !== 'onur-koc-print.jpg'))
+  A.img[f] = '/assets/img/' + (await emit(p('src', 'img', f), 'img', f));
+let siteCss = await readFile(p('src', 'site.css'), 'utf8');
+for (const [f, h] of Object.entries(fontMap)) siteCss = siteCss.replaceAll(`fonts/${f}`, `fonts/${h}`);
+const cssName = hashName('site.css', siteCss);
+await writeFile(s('assets', cssName), siteCss);
+A.css = '/assets/' + cssName;
+A.font400 = '/assets/fonts/' + fontMap['inter-tight-latin-400-normal.woff2'];
+A.font800 = '/assets/fonts/' + fontMap['inter-tight-latin-800-normal.woff2'];
 await cp(p('src', 'favicon.svg'), s('favicon.svg'));
 await writeFile(s('_headers'), `/*
   X-Content-Type-Options: nosniff
@@ -59,10 +87,8 @@ await writeFile(s('_headers'), `/*
 /og.png
   Cache-Control: public, max-age=86400
 `);
-// Foto: fertige Fassungen aus src/img/ (erzeugt mit scripts/make-photos.mjs)
-await cp(p('src', 'img'), s('assets', 'img'), { recursive: true, filter: (f) => !f.endsWith('onur-koc-print.jpg') });
-await writeFile(s('index.html'), renderPage(content.en, content.de.meta.pdf_file));
-await writeFile(s('de', 'index.html'), renderPage(content.de, content.en.meta.pdf_file));
+await writeFile(s('index.html'), renderPage(content.en, content.de.meta.pdf_file, A));
+await writeFile(s('de', 'index.html'), renderPage(content.de, content.en.meta.pdf_file, A));
 await writeFile(s('robots.txt'), 'User-agent: *\nAllow: /\nSitemap: https://cv.onurkoc.net/sitemap.xml\n');
 await writeFile(s('sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
