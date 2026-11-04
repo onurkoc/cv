@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Onur Koç – Curriculum Vitae",
+    "stand": "11/2026",
+    "pdf_file": "onur-koc-cv-en.pdf"
+  },
+  "person": {
+    "name": "Onur Koç",
+    "academic_title": "Dipl.-Ing.",
+    "roles": [
+      "Senior Tunnel Engineer",
+      "Project Manager"
+    ],
+    "location": "Zurich – Salzburg",
+    "intro": "Design of underground structures for rail, road, energy and water supply, from early studies through construction, and independent checking of structural designs.",
+    "personal": {
+      "visibility": "pdf",
+      "birth_date": "01/06/1979",
+      "nationality": "Austrian",
+      "marital_status": "Married, one daughter",
+      "driving_licence": "B"
+    },
+    "contact": {
+      "email": "onur.koc@outlook.com",
+      "phones": [
+        {
+          "label": "AT",
+          "number": "+43 660 466 3 888"
+        },
+        {
+          "label": "CH",
+          "number": "+41 79 267 24 81"
+        }
+      ],
+      "linkedin": "https://www.linkedin.com/in/onur-koc-2ba17020/"
+    }
+  },
+  "languages": [
+    {
+      "name": "Turkish",
+      "level": "native"
+    },
+    {
+      "name": "German",
+      "level": "C2"
+    },
+    {
+      "name": "English",
+      "level": "C2"
+    },
+    {
+      "name": "French",
+      "level": "B1"
+    }
+  ],
+  "education": [
+    {
+      "year": "2008",
+      "degree": "Dipl.-Ing. (MSc) Civil Engineering",
+      "school": "TU Wien (Vienna University of Technology)",
+      "focus": "Geotechnics and Construction Management"
+    },
+    {
+      "year": "2001",
+      "degree": "BSc Civil Engineering",
+      "school": "Istanbul Technical University",
+      "focus": "Concrete structures"
+    }
+  ],
+  "memberships": [
+    "ÖGG – Austrian Society for Geomechanics"
+  ],
+  "profile": {
+    "summary": "More than 18 years of experience in tunnelling and underground construction, with projects in Europe, North and South America, the Middle East and North Africa, including the Semmering Base Tunnel, the Eurasia Tunnel in Istanbul, the Granitztal tunnel chain of the Koralm Railway and hydropower projects in Israel and Chile. Currently leads a team of five engineers and carries out independent checking of structural designs for SBB infrastructure projects.",
+    "key_skills": [
+      "Design of complex underground structures",
+      "Underground works for hydropower: steel-lined pressure shaft, pressure tunnels, surge tank",
+      "Independent checking of structural designs (Category 3 check)",
+      "NATM, TBM, cut-and-cover",
+      "3D FEM and tunnel structural analysis",
+      "Risk management",
+      "Project management"
+    ]
+  },
+  "experience": [
+    {
+      "start": "2023",
+      "end": null,
+      "company": "ARX Group SA",
+      "place": "Zurich (Switzerland)",
+      "role": "Senior Tunnel Engineer / Project Manager"
+    },
+    {
+      "start": "2018",
+      "end": "2023",
+      "company": "Dr. Sauer & Partners GmbH",
+      "place": "Salzburg (Austria)",
+      "role": "Senior Tunnel Engineer / Project Manager"
+    },
+    {
+      "start": "2008",
+      "end": "2018",
+      "company": "IGT GmbH",
+      "place": "Salzburg (Austria)",
+      "role": "Structural Engineer / Tunnel Engineer"
+    }
+  ],
+  "ui": {
+    "nav_work": "Projects",
+    "nav_career": "Career",
+    "nav_profile": "Profile",
+    "download": "Download CV",
+    "pdf": "PDF",
+    "present": "present",
+    "since": "since",
+    "featured": "Selected projects",
+    "all_projects": "All reference projects",
+    "career": "Career",
+    "education": "Education",
+    "languages": "Languages",
+    "memberships": "Memberships",
+    "publications": "Publications",
+    "key_skills": "Key skills",
+    "profile": "Profile",
+    "f_function": "Function",
+    "f_client": "Client",
+    "f_cost": "Cost / period",
+    "f_services": "Services",
+    "f_phases": "Project phases",
+    "stat_years": "years in underground construction",
+    "stat_continents": "continents",
+    "stat_projects": "reference projects",
+    "personal": "Personal details",
+    "birth_date": "Date of birth",
+    "nationality": "Nationality",
+    "marital_status": "Marital status",
+    "driving_licence": "Driving licence",
+    "page": "Page",
+    "lang_switch": "DE",
+    "skip": "Skip to content",
+    "nav_label": "Main navigation",
+    "lang_label": "Language",
+    "stats_label": "Key figures",
+    "nav_cv": "CV (PDF)",
+    "details": "Details",
+    "show_fewer": "Show fewer projects",
+    "stand_label": "As of",
+    "of": "of",
+    "cv_heading": "Curriculum vitae",
+    "pdf_download": "Download PDF",
+    "publications_nav": "Publications",
+    "role_label": "Function",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "photo_alt": "Portrait of Onur Koç",
+    "updated": "Updated",
+    "f_project": "Project"
+  },
+  "stats": {
+    "years": "18+",
+    "continents": "5",
+    "projects": "auto"
+  },
+  "projects": [
+    {
+      "id": "gare-de-lausanne",
+      "start": "2025",
+      "end": null,
+      "featured": false,
+      "name": "Gare de Lausanne (Nouveau Métro)",
+      "country": "Switzerland",
+      "function": "Project Manager",
+      "client": "SBB / CFF",
+      "cost": null,
+      "description": "As part of the SBB programme «Léman 2030», Lausanne station is being comprehensively renewed: new platforms and underpasses while train operations continue. First section in service in 2030, full completion by 2037.",
+      "services": "Independent checking of the structural calculations (equivalent to a Category 3 check, UK): bored pile walls, micropiles, top-down construction, excavation support; geotechnical inspection; risk management",
+      "phases": "Preliminary design / Tender"
+    },
+    {
+      "id": "alto-maipo",
+      "start": "2025",
+      "end": "2025",
+      "featured": false,
+      "name": "Alto Maipo Hydropower Project",
+      "country": "Chile",
+      "function": "Senior Tunnel Engineer",
+      "client": "Strabag AG",
+      "cost": null,
+      "description": "Short-term assignment of three months during construction.",
+      "services": "Evaluation and assessment of a tunnel collapse",
+      "phases": "Construction"
+    },
+    {
+      "id": "aquanovo",
+      "start": "2024",
+      "end": null,
+      "featured": true,
+      "name": "AQUANOVO drinking water supply, Zurich",
+      "country": "Switzerland",
+      "function": "Project Manager / Senior Tunnel Engineer",
+      "client": "City of Zurich",
+      "cost": null,
+      "description": "Planning of a new drinking water transmission main for the City of Zurich. Comparison of seven construction variants (1A–2B) using microtunnelling, horizontal directional drilling, TBM and open-cut construction.",
+      "services": "Variant evaluation, alignment planning, interactive visualisation (longitudinal profile, alignment), construction concept",
+      "phases": "Preliminary design"
+    },
+    {
+      "id": "cargo-sous-terrain",
+      "start": "2023",
+      "end": "2025",
+      "featured": false,
+      "name": "Cargo sous terrain",
+      "country": "Switzerland",
+      "function": "Project Manager / Senior Tunnel Engineer",
+      "client": "CST",
+      "cost": null,
+      "description": "Underground network for automated, electric freight transport in Switzerland. The design covers a 75 km single-tube tunnel, mostly bored by TBM with SCL sections, plus shafts and portals.",
+      "services": "Project management, variant planning, tunnel concept",
+      "phases": "Preliminary design / Tender"
+    },
+    {
+      "id": "swiss-various",
+      "start": "2023",
+      "end": "2025",
+      "featured": false,
+      "name": "Various tunnel and infrastructure projects",
+      "country": "Switzerland",
+      "function": "Project Manager / Senior Tunnel Engineer",
+      "client": "RhB, MGB, CSC/Webuild, Swissgrid",
+      "cost": null,
+      "description": "Fideris tunnel (RhB): risk analysis with risk matrix. Täsch–Zermatt (Matterhorn Gotthard Bahn): variant analysis. Le Locle tunnel (CSC/Webuild): construction concept incl. concept for karst cavities during TBM drive. Swissgrid Innertkirchen, lots 1 and 2: tender analysis.",
+      "services": "Risk analysis, construction concepts, bid preparation, variant planning",
+      "phases": "Preliminary design / Tender / Bid"
+    },
+    {
+      "id": "manara",
+      "start": "2021",
+      "end": "2023",
+      "featured": true,
+      "name": "Manara Pumped Storage Power Plant",
+      "country": "Israel",
+      "function": "Sub-Project Manager / Senior Tunnel Engineer",
+      "client": "Electra Infrastructure",
+      "cost": "USD 450 million, 2021–2026",
+      "description": "Pumped storage plant in northern Israel with a single 156 MW pump turbine: upper and lower reservoirs, powerhouse cavern, low- and high-pressure waterways, surge tank and access tunnel.",
+      "services": "Led a team of three engineers (scope, budget). Design of the steel liner in the high-pressure shaft, high-pressure tunnel, low-pressure tunnel, access tunnel and surge tank; contribution to the powerhouse cavern",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "effluent-outfall",
+      "start": "2021",
+      "end": "2022",
+      "featured": true,
+      "name": "Effluent Outfall Tunnel, Los Angeles",
+      "country": "USA",
+      "function": "Senior Tunnel Engineer",
+      "client": "Dragados USA",
+      "cost": "USD 630.5 million, 2019–2025",
+      "description": "Effluent outfall tunnel for the Joint Water Pollution Control Plant (JWPCP), about 12.9 km (8 miles) long, about 5.5 m (18 ft) in diameter. First use in the USA of post-tensioned segmental lining, over up to 40 % of the alignment.",
+      "services": "Design of starter and tail tunnels for the TBM launch; risk assessment and mitigation design for the TBM drive in squeezing ground",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "french-hill",
+      "start": "2019",
+      "end": "2022",
+      "featured": false,
+      "name": "French Hill Tunnels, Jerusalem",
+      "country": "Israel",
+      "function": "Senior Tunnel Engineer",
+      "client": "Electra Infrastructure",
+      "cost": "USD 140 million, 2019–2023",
+      "description": "Two twin tunnels with a total length of 3.5 km beneath one of Jerusalem's busiest junctions, passing under roads 1 and 60, the Uzi Narkis bridge and the LRT tracks. Excavation with low rock cover and in fill, temporary access tunnel, up to 12 headings at the same time.",
+      "services": "Detailed geotechnical and structural design of excavation and support (NATM)",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "eglinton",
+      "start": "2020",
+      "end": "2021",
+      "featured": false,
+      "name": "Eglinton Crosstown LRT, Toronto",
+      "country": "Canada",
+      "function": "Senior Tunnel Engineer",
+      "client": "CTSC: SNC-Lavalin, Dragados, Aecon, EllisDon JV",
+      "cost": "approx. USD 8 billion, 2015–2021",
+      "description": "Light rail line in the Greater Toronto Area: 19 km corridor along Eglinton Avenue with 15 underground stations and a 10 km twin-bored tunnel.",
+      "services": "Design of the false ceiling connections and reinforced concrete design",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "purple-line",
+      "start": "2018",
+      "end": "2021",
+      "featured": false,
+      "name": "Purple (D) Line, Section III, Los Angeles",
+      "country": "USA",
+      "function": "Senior Tunnel Engineer",
+      "client": "Los Angeles County Metropolitan Transportation Authority (LACMTA)",
+      "cost": "USD 1.3 billion, 2020–2026",
+      "description": "Heavy rail line of about 3.7 km (2.32 miles), double track, with tunnels and 13 cross passages. The cross passages require dewatering and ground improvement; excavation and support follow SEM principles.",
+      "services": "Analysis and design of the cross passages",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "wien-u5-u2",
+      "start": "2017",
+      "end": "2018",
+      "featured": false,
+      "name": "Vienna metro U5/U2, stations",
+      "country": "Austria",
+      "function": "Structural and Geotechnical Engineer",
+      "client": "Wiener Linien GmbH",
+      "cost": null,
+      "description": "Two new underground stations in the city centre, beneath multi-storey commercial buildings.",
+      "services": "3D structural analysis of the stations; settlement analysis of the surface buildings",
+      "phases": "Tender design"
+    },
+    {
+      "id": "granitztal",
+      "start": "2015",
+      "end": "2017",
+      "featured": false,
+      "name": "Koralm Railway, Granitztal tunnel chain, BL 50.4",
+      "country": "Austria",
+      "function": "Structural and Geotechnical Engineer",
+      "client": "ÖBB",
+      "cost": null,
+      "description": "Total length about 6.5 km. The cut-and-cover tunnel, about 600 m long, connects two mined tunnels of the high-speed line.",
+      "services": "Analysis and design of the cut-and-cover tunnel and the tunnel bridge",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "geisswand",
+      "start": "2015",
+      "end": "2017",
+      "featured": false,
+      "name": "Geisswand road tunnel",
+      "country": "Austria",
+      "function": "Structural Engineer",
+      "client": "ASFINAG",
+      "cost": null,
+      "description": "Road tunnel of about 2.2 km, two lanes, excavated cross-section 76 m² (NATM).",
+      "services": "Rehabilitation of floor heave caused by swelling; design of the road pavement against swelling pressure",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "arlberg",
+      "start": "2015",
+      "end": "2016",
+      "featured": false,
+      "name": "Arlberg road tunnel",
+      "country": "Austria",
+      "function": "Structural Engineer",
+      "client": "ASFINAG",
+      "cost": null,
+      "description": "At 13.976 km, Austria's longest road tunnel (S16, Tyrol–Vorarlberg).",
+      "services": "Structural analysis for the tunnel rehabilitation (components of the rehabilitation concept)",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "gleinalm",
+      "start": "2014",
+      "end": "2015",
+      "featured": false,
+      "name": "Gleinalm road tunnel",
+      "country": "Austria",
+      "function": "Structural Engineer",
+      "client": "ASFINAG",
+      "cost": null,
+      "description": "Motorway tunnel on the A9 Pyhrn in Styria, 8.32 km long. New second tube (opened 2017), followed by rehabilitation of the existing tube.",
+      "services": "Analysis of the final lining of the new tube; rehabilitation of the existing tube",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "semmering",
+      "start": "2012",
+      "end": "2016",
+      "featured": false,
+      "name": "Semmering Base Tunnel",
+      "country": "Austria",
+      "function": "Tunnel Engineer",
+      "client": "ÖBB",
+      "cost": null,
+      "description": "Railway tunnel of 27.3 km between Gloggnitz and Mürzzuschlag, two tubes, in difficult geological conditions.",
+      "services": "3D analysis of the drive through the fault zone; analysis of the NATM and TBM cross-sections; analysis of the final lining",
+      "phases": "Tender design"
+    },
+    {
+      "id": "eurasia",
+      "start": "2011",
+      "end": "2013",
+      "featured": false,
+      "name": "Eurasia Tunnel (Istanbul Strait Road Crossing), NATM section",
+      "country": "Turkey",
+      "function": "Structural and Tunnel Engineer",
+      "client": "Yapı Merkezi",
+      "cost": null,
+      "description": "Double-deck road tunnel of 5.4 km beneath the Bosphorus, down to −106 m; total route 14.6 km between Kumkapı (Europe) and Koşuyolu, Kadıköy (Asia).",
+      "services": "Analysis and design of primary and final lining in the NATM section, incl. intersections; design of cut-and-cover sections",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "himmelreich",
+      "start": "2011",
+      "end": "2011",
+      "featured": false,
+      "name": "Himmelreich tunnel",
+      "country": "Austria",
+      "function": "Structural Engineer",
+      "client": "ASFINAG",
+      "cost": null,
+      "description": "Tunnel of about 1,045 m on the Hausmannstätten bypass (B73, Styria).",
+      "services": "Analysis and design of the tunnel cross-sections; formwork stripping analysis of the false ceiling (stripping time)",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "rn43",
+      "start": "2008",
+      "end": "2011",
+      "featured": false,
+      "name": "Road tunnels T2 and T3, upgrade of RN43, Bejaia",
+      "country": "Algeria",
+      "function": "Tunnel Engineer",
+      "client": "Özgün Construction",
+      "cost": null,
+      "description": "Upgrade of a coastal road along a cliff: tunnels T1 (880 m), T2 (635 m), T3 (268 m) and escape tunnels E1 (137 m) and E2 (145 m), in heavily karstified limestone, block breccia and folded clay- and siltstone. Portals and alignment were optimised in option studies.",
+      "services": "Analysis of the typical cross-sections",
+      "phases": "Detailed design"
+    },
+    {
+      "id": "tauern",
+      "start": "2008",
+      "end": "2011",
+      "featured": false,
+      "name": "A10 Tauern motorway, Tauern road tunnel",
+      "country": "Austria",
+      "function": "Structural and Geotechnical Engineer",
+      "client": "ASFINAG",
+      "cost": null,
+      "description": "Twin-tube road tunnel of 6,546 m in the province of Salzburg, two lanes per tube.",
+      "services": "Analysis and design of the final lining, false ceiling and ventilation cavern; analysis and design of a retention dam",
+      "phases": "Detailed design"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2023",
+      "authors": "P. Salak, O. Nathan, O. Koç, A. Pamsl",
+      "title": "French Hill Road Tunnels: A Pragmatic Rock Support Approach",
+      "venue": "Proceedings of WTC 2023, Athens"
+    },
+    {
+      "year": "2016",
+      "authors": "B. Kohlböck, O. Koç, T. Ayten",
+      "title": "Istanbul Strait Road Tube Crossing: Design of NATM Tunnels and Asian Transition Box Excavation",
+      "venue": "Geomechanics and Tunnelling 9 (2016), No. 4, pp. 338–344"
+    },
+    {
+      "year": "2013",
+      "authors": "O. Koç",
+      "title": "Strategies for Design of the Support Measures in Tunneling on Basis of Eurocode",
+      "venue": "Proceedings of the 3rd International Symposium on Underground Excavations for Transportation, 29 Nov 2013, Istanbul"
+    }
+  ]
+}

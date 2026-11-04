@@ -1,0 +1,16 @@
+{
+  "name": "cv-onurkoc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CV-Seite cv.onurkoc.net (EN/DE), statisch, mit PDF je Sprache",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/inter-tight": "^5.3.0",
+    "playwright": "^1.64.1",
+    "sharp": "^0.35.5"
+  }
+}

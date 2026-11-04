@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cv.onurkoc.net/sitemap.xml

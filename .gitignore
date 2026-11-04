@@ -1,0 +1,7 @@
+reference/
+.build/
+node_modules/
+content/_alt/
+CLAUDE.md
+OFFEN.md
+docs/
