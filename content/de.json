@@ -13,7 +13,7 @@
       "Projektleiter"
     ],
     "location": "Zürich – Salzburg",
-    "intro": "Projektierung von Untertagbauten für Bahn, Strasse, Energie und Wasserversorgung, von der Studie bis zur Ausführung, sowie unabhängige Prüfung von Tragwerksnachweisen.",
+    "intro": "Projektleitung, Projektierung und unabhängige Prüfung von Tunneln und Untertagbauten für Bahn, Strasse, Energie und Wasserversorgung, von der Studie bis zur Ausführung.",
     "personal": {
       "visibility": "pdf",
       "birth_date": "01.06.1979",
@@ -72,15 +72,13 @@
     "ÖGG – Österreichische Gesellschaft für Geomechanik"
   ],
   "profile": {
-    "summary": "Mehr als 18 Jahre Erfahrung in Tunnelbau und Untertagbau, mit Projekten in Europa, Nord- und Südamerika, im Nahen Osten und in Nordafrika, darunter Semmering-Basistunnel, Eurasia Tunnel Istanbul, Tunnelkette Granitztal der Koralmbahn und Wasserkraftprojekte in Israel und Chile. Heute Leitung eines Teams von fünf Ingenieurinnen und Ingenieuren sowie unabhängige Prüfung von Tragwerksnachweisen für Infrastrukturprojekte der SBB.",
+    "summary": "Senior Tunnelingenieur und Projektleiter mit mehr als 18 Jahren Erfahrung in Tunnelbau und Untertagbau. Leitung eines Teams von fünf Ingenieurinnen und Ingenieuren sowie unabhängige Prüfung von Tragwerksnachweisen für Infrastrukturprojekte der SBB. Früher Tragwerks- und Tunnelplanung bei Projekten in Europa, Nord- und Südamerika, im Nahen Osten und in Nordafrika, darunter Semmering-Basistunnel, Eurasia Tunnel Istanbul, Tunnelkette Granitztal der Koralmbahn und Pumpspeicherkraftwerk Manara in Israel.",
     "key_skills": [
-      "Projektierung komplexer Untertagbauten",
-      "Untertagbauten von Wasserkraftanlagen: Druckschacht mit Stahlpanzerung, Druckstollen, Wasserschloss",
       "Unabhängige Prüfung von Tragwerksnachweisen (Category 3 Check)",
+      "Projektierung komplexer Untertagbauten",
+      "Projektleitung und Risikomanagement",
       "NÖT, TBM, offene Bauweise",
-      "3D-FEM und Tunnelstatik",
-      "Risikomanagement",
-      "Projektleitung"
+      "3D-FEM und Tunnelstatik"
     ]
   },
   "experience": [
@@ -170,7 +168,7 @@
       "id": "gare-de-lausanne",
       "start": "2025",
       "end": null,
-      "featured": false,
+      "featured": true,
       "name": "Gare de Lausanne (Nouveau Métro)",
       "country": "Schweiz",
       "function": "Projektleiter",
@@ -198,7 +196,7 @@
       "id": "aquanovo",
       "start": "2024",
       "end": null,
-      "featured": true,
+      "featured": false,
       "name": "AQUANOVO Trinkwasserversorgung, Zürich",
       "country": "Schweiz",
       "function": "Projektleiter / Senior Tunnelingenieur",
@@ -212,7 +210,7 @@
       "id": "cargo-sous-terrain",
       "start": "2023",
       "end": "2025",
-      "featured": false,
+      "featured": true,
       "name": "Cargo sous terrain",
       "country": "Schweiz",
       "function": "Projektleiter / Senior Tunnelingenieur",
@@ -254,7 +252,7 @@
       "id": "effluent-outfall",
       "start": "2021",
       "end": "2022",
-      "featured": true,
+      "featured": false,
       "name": "Effluent Outfall Tunnel, Los Angeles",
       "country": "USA",
       "function": "Senior Tunnelingenieur",

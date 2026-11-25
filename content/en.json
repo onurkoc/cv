@@ -13,7 +13,7 @@
       "Project Manager"
     ],
     "location": "Zurich – Salzburg",
-    "intro": "Design of underground structures for rail, road, energy and water supply, from early studies through construction, and independent checking of structural designs.",
+    "intro": "Project management, design and independent checking of tunnels and underground structures for rail, road, energy and water supply, from early studies through construction.",
     "personal": {
       "visibility": "pdf",
       "birth_date": "01/06/1979",
@@ -72,15 +72,13 @@
     "ÖGG – Austrian Society for Geomechanics"
   ],
   "profile": {
-    "summary": "More than 18 years of experience in tunnelling and underground construction, with projects in Europe, North and South America, the Middle East and North Africa, including the Semmering Base Tunnel, the Eurasia Tunnel in Istanbul, the Granitztal tunnel chain of the Koralm Railway and hydropower projects in Israel and Chile. Currently leads a team of five engineers and carries out independent checking of structural designs for SBB infrastructure projects.",
+    "summary": "Senior tunnel engineer and project manager with more than 18 years of experience in tunnelling and underground construction. Leads a team of five engineers and carries out independent checking of structural designs for SBB infrastructure projects. Earlier work in structural and tunnel design on projects in Europe, North and South America, the Middle East and North Africa, including the Semmering Base Tunnel, the Eurasia Tunnel in Istanbul, the Granitztal tunnel chain of the Koralm Railway and the Manara pumped storage plant in Israel.",
     "key_skills": [
-      "Design of complex underground structures",
-      "Underground works for hydropower: steel-lined pressure shaft, pressure tunnels, surge tank",
       "Independent checking of structural designs (Category 3 check)",
+      "Design of complex underground structures",
+      "Project management and risk management",
       "NATM, TBM, cut-and-cover",
-      "3D FEM and tunnel structural analysis",
-      "Risk management",
-      "Project management"
+      "3D FEM and tunnel structural analysis"
     ]
   },
   "experience": [
@@ -170,7 +168,7 @@
       "id": "gare-de-lausanne",
       "start": "2025",
       "end": null,
-      "featured": false,
+      "featured": true,
       "name": "Gare de Lausanne (Nouveau Métro)",
       "country": "Switzerland",
       "function": "Project Manager",
@@ -198,7 +196,7 @@
       "id": "aquanovo",
       "start": "2024",
       "end": null,
-      "featured": true,
+      "featured": false,
       "name": "AQUANOVO drinking water supply, Zurich",
       "country": "Switzerland",
       "function": "Project Manager / Senior Tunnel Engineer",
@@ -212,7 +210,7 @@
       "id": "cargo-sous-terrain",
       "start": "2023",
       "end": "2025",
-      "featured": false,
+      "featured": true,
       "name": "Cargo sous terrain",
       "country": "Switzerland",
       "function": "Project Manager / Senior Tunnel Engineer",
@@ -254,7 +252,7 @@
       "id": "effluent-outfall",
       "start": "2021",
       "end": "2022",
-      "featured": true,
+      "featured": false,
       "name": "Effluent Outfall Tunnel, Los Angeles",
       "country": "USA",
       "function": "Senior Tunnel Engineer",
